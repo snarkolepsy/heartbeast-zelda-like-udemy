@@ -36,10 +36,12 @@
   "name":"Udemy Action RPG in GMS2",
   "resources":[
     {"id":{"name":"o_player","path":"objects/o_player/o_player.yy",},},
+    {"id":{"name":"o_solid","path":"objects/o_solid/o_solid.yy",},},
     {"id":{"name":"r_base","path":"rooms/r_base/r_base.yy",},},
     {"id":{"name":"s_player_run_down","path":"sprites/s_player_run_down/s_player_run_down.yy",},},
     {"id":{"name":"s_player_run_right","path":"sprites/s_player_run_right/s_player_run_right.yy",},},
     {"id":{"name":"s_player_run_up","path":"sprites/s_player_run_up/s_player_run_up.yy",},},
+    {"id":{"name":"s_solid","path":"sprites/s_solid/s_solid.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
