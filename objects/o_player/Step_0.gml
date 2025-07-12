@@ -1,28 +1,33 @@
-if (keyboard_check(vk_right) && !place_meeting(x+4, y, o_solid)) {
-	x += 2; // moving character to the right at a rate of 4 pixels per step
-	sprite_index = s_player_run_right;
-	image_speed = 0.6;
-	image_xscale = 1;
+image_speed = 0;
+
+// Axis controls
+var _x_input = keyboard_check(vk_right) - keyboard_check(vk_left); // range 1 to -1
+var _y_input = keyboard_check(vk_down) - keyboard_check(vk_up);
+
+// Takes two points and returns a direction in a 360 wheel
+var _input_direction = point_direction(0, 0, _x_input, _y_input);
+
+
+// Check if we are not moving
+if (_x_input == 0 && _y_input == 0) {
+	// Reset to the first frame of the animation 
+	image_index = 0;
+	// Do not animate
+	image_speed = 0;
+	apply_friction_to_movement_entity(); // Slow character to a stop
+}
+else { // we are moving
+	image_speed = 0.6; // actually animate the sprite
+	
+	// flip the sprite if we're moving left
+	if (_x_input != 0) {
+		image_xscale = _x_input; // set to -1 or 1
+	}
+	
+	get_direction_facing(_input_direction);
+	add_movement_maxspeed(_input_direction, acceleration_, max_speed_);
 }
 
-// Leftward movement
-if (keyboard_check(vk_left) && !place_meeting(x-4, y, o_solid)) {
-	x -= 2;
-	sprite_index = s_player_run_right;
-	image_speed = 0.6;
-	image_xscale = -1;
-}
-
-// Upward movement
-if (keyboard_check(vk_up) && !place_meeting(x, y-4, o_solid)) {
-	y -= 2;
-	sprite_index = s_player_run_up;
-	image_speed = 0.6;
-}
-
-// Downward movement
-if (keyboard_check(vk_down) && !place_meeting(x, y+4, o_solid)) {
-	y += 2;
-	sprite_index = s_player_run_down;
-	image_speed = 0.6;
-}
+sprite_index = sprite_[player.move, direction_facing_];
+// ACTUALLY MOVES! Bounce or not?
+move_movement_entity(false);
