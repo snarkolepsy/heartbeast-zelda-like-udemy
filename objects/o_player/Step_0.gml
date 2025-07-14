@@ -7,6 +7,8 @@ var _y_input = keyboard_check(vk_down) - keyboard_check(vk_up);
 // Takes two points and returns a direction in a 360 wheel
 var _input_direction = point_direction(0, 0, _x_input, _y_input);
 
+// SPACEBAR to attack
+var _attack_input = keyboard_check_pressed(vk_space);
 
 // Check if we are not moving
 if (_x_input == 0 && _y_input == 0) {
@@ -28,6 +30,12 @@ else { // we are moving
 	add_movement_maxspeed(_input_direction, acceleration_, max_speed_);
 }
 
-sprite_index = sprite_[player.move, direction_facing_];
+// Switching to attacking "mode" when the proper key is pressed
+if (_attack_input == true) {
+	action_ = player.sword;
+	image_index = 0; // reset the sprite image index to the first frame
+}
+
+sprite_index = sprite_[action_, direction_facing_];
 // ACTUALLY MOVES! Bounce or not?
 move_movement_entity(false);

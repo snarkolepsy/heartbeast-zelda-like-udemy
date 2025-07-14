@@ -32,5 +32,5 @@
     "path":"sprites/s_solid/s_solid.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
