@@ -42,6 +42,7 @@
     {"id":{"name":"o_solid","path":"objects/o_solid/o_solid.yy",},},
     {"id":{"name":"r_base","path":"rooms/r_base/r_base.yy",},},
     {"id":{"name":"add_movement_maxspeed","path":"scripts/add_movement_maxspeed/add_movement_maxspeed.yy",},},
+    {"id":{"name":"animation_hit_frame","path":"scripts/animation_hit_frame/animation_hit_frame.yy",},},
     {"id":{"name":"apply_friction_to_movement_entity","path":"scripts/apply_friction_to_movement_entity/apply_friction_to_movement_entity.yy",},},
     {"id":{"name":"approach","path":"scripts/approach/approach.yy",},},
     {"id":{"name":"get_direction_facing","path":"scripts/get_direction_facing/get_direction_facing.yy",},},

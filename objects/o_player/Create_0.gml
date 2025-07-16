@@ -20,7 +20,7 @@ enum dir { // ORDER MATTERS --> how GMS organizes directions
 }
 
 // Current state, determines what sprite we're using in Step
-action_ = player.move;
+state_ = player.move;
 
 // Movement lookup table
 sprite_[player.move, dir.right] = s_player_run_right;
