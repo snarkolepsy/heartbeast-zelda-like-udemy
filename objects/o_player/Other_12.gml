@@ -1,6 +1,9 @@
-/// @description Sword State
+/// @description Evade State
 
-image_speed = 0.8;
+image_speed = 0.7;
+
+set_movement(roll_direction_, roll_speed_);
+move_movement_entity(false);
 
 // Finish the animation before changing back to default state
 if (animation_hit_frame(image_number-1)) {
