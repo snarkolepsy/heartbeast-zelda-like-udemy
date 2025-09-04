@@ -1,10 +1,11 @@
 /// @description Attack State
+image_speed = 0.35;
 
 if (animation_hit_frame(3)) {
 	var _life = 1;
 	var _damage = 1;
 	var _knockback = 4;
-	create_hitbox(s_porcupine_hitbox, x, y-8, 0, _life, [], _damage, _knockback);
+	create_hitbox(s_porcupine_hitbox, x, y-8, 0, _life, [o_player], _damage, _knockback);
 }
 
 // Exiting the attack state back to default state

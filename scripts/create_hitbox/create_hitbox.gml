@@ -21,7 +21,7 @@ function create_hitbox(){
 	_hitbox.sprite_index = _sprite;
 	_hitbox.image_angle = _angle;
 	_hitbox.alarm[0] = _frames;
-	_hitbox.targets_ = _target_array; // OP started with _array and that seemed incorrect
+	_hitbox.targets_ = _target_array; // TYPO? OP wrote "_array" and that seemed incorrect
 	_hitbox.damage_ = _damage;
 	_hitbox.knockback_ = _knockback
 	
