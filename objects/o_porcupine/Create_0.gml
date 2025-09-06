@@ -17,4 +17,4 @@ image_index = 0;
 image_xscale = choose(1, -1); // Start facing in a random direction
 
 // Between zero and 1 second
-alarm[1] = random_range(0, 1) * game_get_speed(gamespeed_fps);
+alarm[1] = random_range(0, 1) * global.one_second;

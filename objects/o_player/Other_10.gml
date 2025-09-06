@@ -3,14 +3,14 @@
 image_speed = 0;
 
 // Axis controls
-var _x_input = keyboard_check(vk_right) - keyboard_check(vk_left); // range 1 to -1
-var _y_input = keyboard_check(vk_down) - keyboard_check(vk_up);
+var _x_input = o_input.right_ - o_input.left_; // range 1 to -1
+var _y_input = o_input.down_ - o_input.up_	;
 // Takes two points and returns a direction in a 360 wheel
 var _input_direction = point_direction(0, 0, _x_input, _y_input);
 // SPACEBAR to attack
-var _attack_input = keyboard_check_pressed(ord("X"));
+var _attack_input = o_input.action_one_pressed_;
 // Z to roll
-var _roll_input = keyboard_check_pressed(ord("Z"));
+var _roll_input = o_input.action_two_pressed_;
 
 roll_direction_ = direction_facing_*90;
 
