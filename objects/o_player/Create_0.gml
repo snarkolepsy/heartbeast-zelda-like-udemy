@@ -10,9 +10,13 @@ roll_direction_ = 0; // allows us to displace when hitting the dodge button
 global.player_health = 4;
 
 enum player {
-	move,
-	sword,
-	evade
+	move,			// User Event 0
+	sword,			// User Event 1
+	evade,			// User Event 2
+	bomb,			// User Event 3
+	bow,			// User Event 4
+	found_item,		// User Event 5
+	hit				// User Event 6
 }
 
 enum dir { // ORDER MATTERS --> how GMS organizes directions
@@ -21,6 +25,10 @@ enum dir { // ORDER MATTERS --> how GMS organizes directions
 	left,  // 2 --> 180
 	down   // 3 --> 270 i.e. down in GMS directions
 }
+
+
+// Defining a STARTING STATE
+starting_state_ = player.move;
 
 // Current state, determines what sprite we're using in Step
 state_ = player.move;
@@ -42,3 +50,9 @@ sprite_[player.evade, dir.right] = s_player_roll_right;
 sprite_[player.evade, dir.up] = s_player_roll_up;
 sprite_[player.evade, dir.left] = s_player_roll_right;
 sprite_[player.evade, dir.down] = s_player_roll_down;
+
+// Hit state lookup table
+sprite_[player.hit, dir.right] = s_player_run_right;
+sprite_[player.hit, dir.up] = s_player_run_up;
+sprite_[player.hit, dir.left] = s_player_run_right;
+sprite_[player.hit, dir.down] = s_player_run_down;

@@ -6,7 +6,7 @@ if (health_ <= 0) {
 if (hurtbox_entity_can_be_hit_by(other)) {
 	// Prevent multi-hits
 	invincible_ = true;
-	alarm[0] = global.one_second/4; // cooldown timer for invincibility after hit
+	alarm[0] = global.one_second * 0.5; // cooldown timer for invincibility after hit
 	
 	// Elsewise, peform damage calculations
 	health_ -= other.damage_; // "other" is the object we collided with, in this case the o_hitbox
