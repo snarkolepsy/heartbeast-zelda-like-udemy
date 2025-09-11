@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"approach",
+  "%Name":"round_n",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"approach",
+  "name":"round_n",
   "parent":{
     "name":"Helper Script",
     "path":"folders/Scripts/Helper Script.yy",
