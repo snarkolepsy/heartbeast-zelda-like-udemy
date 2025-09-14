@@ -1,12 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"o_hitbox",
+  "%Name":"o_door",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"o_hitbox",
+  "name":"o_door",
   "overriddenProperties":[],
   "parent":{
     "name":"Collisions",
@@ -31,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_bomb_hitbox",
-    "path":"sprites/s_bomb_hitbox/s_bomb_hitbox.yy",
+    "name":"s_door",
+    "path":"sprites/s_door/s_door.yy",
   },
   "spriteMaskId":null,
   "visible":false,

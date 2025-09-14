@@ -14,4 +14,7 @@ if (hurtbox_entity_can_be_hit_by(other)) {
 	
 	// Change the state
 	state_ = player.hit;
+	
+	// Play the sound effect
+	audio_play_sound(a_hurt, 6, false);
 }

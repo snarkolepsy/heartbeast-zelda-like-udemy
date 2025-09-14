@@ -7,3 +7,7 @@ global.player_health = global.player_max_health;
 global.player_max_stamina = 2;
 global.player_stamina = global.player_max_stamina;
 global.player_gems = 0; // will be used for scorekeeping later
+global.player_start_position = i_game_start;
+
+// Play background music
+// audio_play_sound(a_music, 10, true);
