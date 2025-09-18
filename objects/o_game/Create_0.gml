@@ -19,3 +19,8 @@ global.player_start_position = i_game_start;
 
 // Setting the correct GUI Resolution to match our camera
 display_set_gui_size(camera_get_view_width(view_camera[0]), camera_get_view_height(view_camera[0]));
+
+// Variables for implementing PAUSE state
+paused_ = false;
+paused_sprite_ = noone;
+paused_sprite_scale_ = display_get_gui_width()/view_wport[0];
