@@ -24,3 +24,14 @@ display_set_gui_size(camera_get_view_width(view_camera[0]), camera_get_view_heig
 paused_ = false;
 paused_sprite_ = noone;
 paused_sprite_scale_ = display_get_gui_width()/view_wport[0];
+
+// Inventory tracking stuff p1
+global.item[0] = noone;
+global.item[1] = noone;
+item_index_ = 0;
+
+// Inventory tracking stuff p2
+inventory_create(6);
+inventory_add_item(o_ring_item);
+inventory_add_item(o_sword_item);
+inventory_add_item(o_bomb_item);

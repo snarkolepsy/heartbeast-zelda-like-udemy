@@ -7,11 +7,6 @@ var _x_input = o_input.right_ - o_input.left_; // range 1 to -1
 var _y_input = o_input.down_ - o_input.up_	;
 // Takes two points and returns a direction in a 360 wheel
 var _input_direction = point_direction(0, 0, _x_input, _y_input);
-// SPACEBAR to attack
-var _attack_input = o_input.action_one_pressed_;
-// Z to roll
-var _roll_input = o_input.action_two_pressed_;
-
 roll_direction_ = direction_facing_*90;
 
 // Check if we are not moving
@@ -36,17 +31,8 @@ else { // we are moving
 	roll_direction_ = direction_facing_*90;
 }
 
-// Switching to attacking "mode" when the proper key is pressed
-if (_attack_input == true) {
-	image_index = 0;
-	state_ = player.sword;
-}
-
-// Are we rolling?
-if (_roll_input == true) {
-	image_index = 0;
-	state_ = player.evade;
-}
+inventory_use_item(o_input.action_one_pressed_, global.item[0]);
+inventory_use_item(o_input.action_two_pressed_, global.item[1]);
 
 // ACTUALLY MOVES! Bounce or not?
 move_movement_entity(false);
