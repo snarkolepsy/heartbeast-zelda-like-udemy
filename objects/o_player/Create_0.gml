@@ -51,6 +51,12 @@ sprite_[player.evade, dir.up] = s_player_roll_up;
 sprite_[player.evade, dir.left] = s_player_roll_right;
 sprite_[player.evade, dir.down] = s_player_roll_down;
 
+// Bomb state lookup table
+sprite_[player.bomb, dir.right] = s_player_run_right;
+sprite_[player.bomb, dir.up] = s_player_run_up;
+sprite_[player.bomb, dir.left] = s_player_run_right;
+sprite_[player.bomb, dir.down] = s_player_run_down;
+
 // Hit state lookup table
 sprite_[player.hit, dir.right] = s_player_run_right;
 sprite_[player.hit, dir.up] = s_player_run_up;
