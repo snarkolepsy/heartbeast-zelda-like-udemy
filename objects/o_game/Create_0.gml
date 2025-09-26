@@ -9,7 +9,7 @@ draw_set_font(global.font);
 // Defining and setting player HP, SP, etc. in this persistent object
 global.player_max_health = 4;
 global.player_health = global.player_max_health;
-global.player_max_stamina = 2;
+global.player_max_stamina = 3;
 global.player_stamina = global.player_max_stamina;
 global.player_gems = 0; // will be used for scorekeeping later
 global.player_start_position = i_game_start;
