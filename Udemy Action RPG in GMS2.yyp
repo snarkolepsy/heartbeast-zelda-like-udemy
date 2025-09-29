@@ -54,6 +54,7 @@
   "name":"Udemy Action RPG in GMS2",
   "resources":[
     {"id":{"name":"o_animation_effect","path":"objects/o_animation_effect/o_animation_effect.yy",},},
+    {"id":{"name":"o_bat","path":"objects/o_bat/o_bat.yy",},},
     {"id":{"name":"o_bomb_item","path":"objects/o_bomb_item/o_bomb_item.yy",},},
     {"id":{"name":"o_bomb","path":"objects/o_bomb/o_bomb.yy",},},
     {"id":{"name":"o_camera","path":"objects/o_camera/o_camera.yy",},},
@@ -99,6 +100,7 @@
     {"id":{"name":"porcupine_attack","path":"scripts/porcupine_attack/porcupine_attack.yy",},},
     {"id":{"name":"round_n","path":"scripts/round_n/round_n.yy",},},
     {"id":{"name":"set_movement","path":"scripts/set_movement/set_movement.yy",},},
+    {"id":{"name":"set_sprite_facing","path":"scripts/set_sprite_facing/set_sprite_facing.yy",},},
     {"id":{"name":"singleton","path":"scripts/singleton/singleton.yy",},},
     {"id":{"name":"a_collect_item","path":"sounds/a_collect_item/a_collect_item.yy",},},
     {"id":{"name":"a_explosion","path":"sounds/a_explosion/a_explosion.yy",},},
@@ -113,6 +115,7 @@
     {"id":{"name":"a_set_bomb","path":"sounds/a_set_bomb/a_set_bomb.yy",},},
     {"id":{"name":"a_swipe","path":"sounds/a_swipe/a_swipe.yy",},},
     {"id":{"name":"a_unpause","path":"sounds/a_unpause/a_unpause.yy",},},
+    {"id":{"name":"s_bat","path":"sprites/s_bat/s_bat.yy",},},
     {"id":{"name":"s_bomb_hitbox","path":"sprites/s_bomb_hitbox/s_bomb_hitbox.yy",},},
     {"id":{"name":"s_bomb_item","path":"sprites/s_bomb_item/s_bomb_item.yy",},},
     {"id":{"name":"s_bomb","path":"sprites/s_bomb/s_bomb.yy",},},

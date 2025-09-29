@@ -3,11 +3,7 @@
 // Animate the walk
 image_speed = 0.35;
 
-// Making porcupine face the right direction of travel
-var _x_speed = lengthdir_x(speed_, direction_);
-if (_x_speed != 0) {
-	image_xscale = sign(_x_speed); // Flips the sprite if we're moving in a negative x direction
-}
+set_sprite_facing();
 
 // If alarm goes off on during movement state, start slowing down
 if (alarm[1] <= 0) {
