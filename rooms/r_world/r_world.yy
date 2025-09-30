@@ -51,7 +51,7 @@
     {"name":"inst_3A9C2400","path":"rooms/r_world/r_world.yy",},
     {"name":"inst_5B0F5864","path":"rooms/r_world/r_world.yy",},
     {"name":"inst_7D5463CE","path":"rooms/r_world/r_world.yy",},
-    {"name":"inst_267342E7","path":"rooms/r_world/r_world.yy",},
+    {"name":"inst_674DF478","path":"rooms/r_world/r_world.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -102,7 +102,7 @@
         {"$GMRInstance":"v2","%Name":"inst_76A0C1D1","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_76A0C1D1","objectId":{"name":"o_door","path":"objects/o_door/o_door.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.0,"scaleY":1.0,"x":256.0,"y":-32.0,},
         {"$GMRInstance":"v2","%Name":"i_sword_to_world","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"i_sword_to_world","objectId":{"name":"o_start_position","path":"objects/o_start_position/o_start_position.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":272.0,"y":0.0,},
         {"$GMRInstance":"v2","%Name":"i_game_start","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"i_game_start","objectId":{"name":"o_start_position","path":"objects/o_start_position/o_start_position.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":48.0,"y":32.0,},
-        {"$GMRInstance":"v2","%Name":"inst_267342E7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_267342E7","objectId":{"name":"o_bat","path":"objects/o_bat/o_bat.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":464.0,"y":128.0,},
+        {"$GMRInstance":"v2","%Name":"inst_674DF478","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_674DF478","objectId":{"name":"o_hornet","path":"objects/o_hornet/o_hornet.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":464.0,"y":128.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"DirtWalls","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":true,"inheritLayerSettings":true,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"DirtWalls","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":8,"SerialiseWidth":20,"TileCompressedData":[
           10,6,1,3,13,17,8,4,2,1,12,-10,-2147483648,6,6,1,1,3,4,2,-3,1,1,12,-4,-2147483648,1,8,-5,4,1,6,-8,1,1,
