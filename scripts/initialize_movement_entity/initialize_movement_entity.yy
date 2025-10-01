@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"intialize_movement_entity",
+  "%Name":"initialize_movement_entity",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"intialize_movement_entity",
+  "name":"initialize_movement_entity",
   "parent":{
     "name":"Movement Scripts",
     "path":"folders/Scripts/Movement Scripts.yy",

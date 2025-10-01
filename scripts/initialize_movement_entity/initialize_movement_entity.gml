@@ -1,4 +1,4 @@
-function initalize_movement_entity(){
+function initialize_movement_entity(){
 	///@arg friction
 	///@arg bounce
 	///@arg collision_object

@@ -1,5 +1,4 @@
 function move_movement_entity(){
-	// JUST COPY AND PASTE OP'S CODE AS IS FIRST --> THEN WE MAKE FUNCTIONAL CHECKS
 	///@param _bounce
 	var _bounce = argument0;
 

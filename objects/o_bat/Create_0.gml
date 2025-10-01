@@ -1,5 +1,5 @@
 event_inherited();
-initalize_movement_entity(0.25, 0.5, o_solid);
+initialize_movement_entity(0.25, 0.5, o_solid);
 
 enum bat {
 	hit,

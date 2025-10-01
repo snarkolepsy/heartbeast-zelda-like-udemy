@@ -1,5 +1,5 @@
 event_inherited(); // Run the code from the enemy parent class first
-initalize_movement_entity(0.5, 0.5, o_solid); // Override friction values from the parent class
+initialize_movement_entity(0.5, 0.5, o_solid); // Override friction values from the parent class
 
 // Different states for the porcupine enemy
 enum porcupine {
