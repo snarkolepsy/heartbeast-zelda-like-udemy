@@ -7,7 +7,9 @@ max_speed_ = 1.5;
 roll_speed_ = 2;
 direction_facing_ = dir.right;
 roll_direction_ = 0; // allows us to displace when hitting the dodge button
-global.player_health = 4;
+
+// Start regenerating stamina once we're made
+alarm[1] = global.one_second;
 
 enum player {
 	move,			// User Event 0

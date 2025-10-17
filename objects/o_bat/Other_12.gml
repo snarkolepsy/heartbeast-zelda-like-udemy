@@ -9,9 +9,14 @@ if (distance_to_object(o_player) > range_) {
 	state_ = bat.move;
 }
 
-set_sprite_facing();
 var _direction = point_direction(x, y, o_player.x, o_player.y);
-add_movement_maxspeed(_direction, 0.123, 1);
+
+var _x_speed = lengthdir_x(speed_, _direction);
+if (_x_speed != 0) {
+	image_xscale = sign(_x_speed);
+}
+
+add_movement_maxspeed(_direction, 0.125, 1);
 move_movement_entity(true);
 
 var _player = instance_place(x, y, o_player);

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"ini_read_inventory",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ini_read_inventory",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
