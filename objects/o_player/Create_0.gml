@@ -7,6 +7,7 @@ max_speed_ = 1.5;
 roll_speed_ = 2;
 direction_facing_ = dir.right;
 roll_direction_ = 0; // allows us to displace when hitting the dodge button
+found_item_sprite_ = noone;
 
 // Start regenerating stamina once we're made
 alarm[1] = global.one_second;
@@ -58,6 +59,12 @@ sprite_[player.bomb, dir.right] = s_player_run_right;
 sprite_[player.bomb, dir.up] = s_player_run_up;
 sprite_[player.bomb, dir.left] = s_player_run_right;
 sprite_[player.bomb, dir.down] = s_player_run_down;
+
+// Found item state lookup table
+sprite_[player.found_item, dir.right] = s_player_found_item;
+sprite_[player.found_item, dir.up] = s_player_found_item;
+sprite_[player.found_item, dir.left] = s_player_found_item;
+sprite_[player.found_item, dir.down] = s_player_found_item;
 
 // Hit state lookup table
 sprite_[player.hit, dir.right] = s_player_run_right;
