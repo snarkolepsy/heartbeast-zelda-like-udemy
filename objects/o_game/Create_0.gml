@@ -38,3 +38,4 @@ item_index_ = 0;
 // Inventory tracking stuff p2
 inventory_create(6);
 inventory_add_item(o_ring_item); // We only start off with the ring
+inventory_add_item(Object29); // for debugging purposes, we also start with the bow

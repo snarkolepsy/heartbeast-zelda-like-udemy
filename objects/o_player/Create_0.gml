@@ -29,12 +29,18 @@ enum dir { // ORDER MATTERS --> how GMS organizes directions
 	down   // 3 --> 270 i.e. down in GMS directions
 }
 
+enum action {
+	one,
+	two
+}
 
 // Defining a STARTING STATE
 starting_state_ = player.move;
 
 // Current state, determines what sprite we're using in Step
 state_ = player.move;
+
+action_ = noone;
 
 // Movement lookup table
 sprite_[player.move, dir.right] = s_player_run_right;
@@ -59,6 +65,12 @@ sprite_[player.bomb, dir.right] = s_player_run_right;
 sprite_[player.bomb, dir.up] = s_player_run_up;
 sprite_[player.bomb, dir.left] = s_player_run_right;
 sprite_[player.bomb, dir.down] = s_player_run_down;
+
+// Bow (and arrow) state lookup table
+sprite_[player.bow, dir.right] = s_player_bow_right;
+sprite_[player.bow, dir.up] = s_player_bow_up;
+sprite_[player.bow, dir.left] = s_player_bow_right;
+sprite_[player.bow, dir.down] = s_player_bow_down;
 
 // Found item state lookup table
 sprite_[player.found_item, dir.right] = s_player_found_item;
