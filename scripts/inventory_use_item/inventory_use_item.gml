@@ -16,6 +16,14 @@ function inventory_use_item(){
 			}
 		}
 		else if (instance_exists(_item) and global.player_stamina >= _item.cost_) {
+			if (_item.show_amount_) {
+				if (_item.amount_ > 0) {
+					_item.amount_ -= 1;
+				}
+				else { // don't have enough to drop the bombs, do not perform the action
+					exit;
+				}
+			}
 			action_ = _action;
 			state_ = _item.action_;
 			global.player_stamina = max(0, global.player_stamina-_item.cost_);
