@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"round_n",
   "parent":{
-    "name":"Helper Script",
-    "path":"folders/Scripts/Helper Script.yy",
+    "name":"Helper Scripts",
+    "path":"folders/Scripts/Helper Scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

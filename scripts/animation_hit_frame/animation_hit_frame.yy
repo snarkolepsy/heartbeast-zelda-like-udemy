@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"animation_hit_frame",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"Animation Scripts",
+    "path":"folders/Scripts/Animation Scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

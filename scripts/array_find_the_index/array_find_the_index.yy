@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"array_find_the_index",
   "parent":{
-    "name":"Helper Script",
-    "path":"folders/Scripts/Helper Script.yy",
+    "name":"Helper Scripts",
+    "path":"folders/Scripts/Helper Scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

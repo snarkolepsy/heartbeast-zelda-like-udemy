@@ -9,8 +9,8 @@
   "name":"o_sword_stand",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"World",
+    "path":"folders/Objects/World.yy",
   },
   "parentObjectId":{
     "name":"o_interactable",

@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"add_to_destroyed_list",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"Saving and Loading Scripts",
+    "path":"folders/Scripts/Saving and Loading Scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
