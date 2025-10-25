@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"instance_key",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"Helper Scripts",
+    "path":"folders/Scripts/Helper Scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
