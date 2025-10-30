@@ -28,8 +28,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"Effects Sprites",
-    "path":"folders/Sprites/Effects Sprites.yy",
+    "name":"Effects",
+    "path":"folders/Sprites/Effects.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

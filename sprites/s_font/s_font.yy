@@ -94,8 +94,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Misc Sprites",
-    "path":"folders/Sprites/Misc Sprites.yy",
+    "name":"Misc",
+    "path":"folders/Sprites/Misc.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

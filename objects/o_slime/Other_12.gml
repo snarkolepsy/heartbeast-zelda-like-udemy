@@ -16,7 +16,7 @@ if (_x_speed != 0) {
 add_movement_maxspeed(_direction, 0.12, 0.25);
 move_movement_entity(true);
 
-// If we're in contact with the player, spawn a hurtbox
+// If we're in contact with the player, spawn a hitbox
 var _player = instance_place(x, y, o_player);
 if (_player) {
 	create_hitbox(sprite_index, x, y, 0, 1, [o_player], 1, 1);
