@@ -56,7 +56,7 @@ function inventory_draw(){
 		}
 	}
 	if (instance_exists(global.item[1])) {
-		var _item = global.item[0];
+		var _item = global.item[1];
 		var _box_x = 36;
 		var _box_y = 4;
 		draw_sprite(_item.sprite_, 0, _box_x+16, _box_y+16);
