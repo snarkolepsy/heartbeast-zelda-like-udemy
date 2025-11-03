@@ -36,7 +36,7 @@ global.item[1] = noone;
 item_index_ = 0;
 
 // Inventory tracking stuff p2
-inventory_create(6);
-inventory_add_item(o_ring_item); // We start off with the ring?
+inventory_create(4);
+//inventory_add_item(o_ring_item); // We start off with the ring?
 // inventory_add_item(o_bow_item); // for debugging purposes, we also start with the bow and bombs
 // inventory_add_item(o_bomb_item);
