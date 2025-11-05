@@ -2,7 +2,7 @@
   "$GMProject":"v1",
   "%Name":"Udemy Action RPG in GMS2",
   "AudioGroups":[
-    {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
+    {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
   "configs":{
     "children":[],
@@ -57,7 +57,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.13.1.193",
+    "IDEVersion":"2024.14.0.207",
   },
   "name":"Udemy Action RPG in GMS2",
   "resources":[
@@ -97,6 +97,7 @@
     {"id":{"name":"o_tree","path":"objects/o_tree/o_tree.yy",},},
     {"id":{"name":"r_base","path":"rooms/r_base/r_base.yy",},},
     {"id":{"name":"r_init","path":"rooms/r_init/r_init.yy",},},
+    {"id":{"name":"r_river","path":"rooms/r_river/r_river.yy",},},
     {"id":{"name":"r_sword","path":"rooms/r_sword/r_sword.yy",},},
     {"id":{"name":"r_title","path":"rooms/r_title/r_title.yy",},},
     {"id":{"name":"r_world","path":"rooms/r_world/r_world.yy",},},
@@ -154,6 +155,7 @@
     {"id":{"name":"a_swipe","path":"sounds/a_swipe/a_swipe.yy",},},
     {"id":{"name":"a_unpause","path":"sounds/a_unpause/a_unpause.yy",},},
     {"id":{"name":"a_title_card","path":"sprites/a_title_card/a_title_card.yy",},},
+    {"id":{"name":"building_atlas","path":"sprites/building_atlas/building_atlas.yy",},},
     {"id":{"name":"s_arrow_hit","path":"sprites/s_arrow_hit/s_arrow_hit.yy",},},
     {"id":{"name":"s_arrow","path":"sprites/s_arrow/s_arrow.yy",},},
     {"id":{"name":"s_bat","path":"sprites/s_bat/s_bat.yy",},},
@@ -215,8 +217,10 @@
     {"id":{"name":"s_sword_item","path":"sprites/s_sword_item/s_sword_item.yy",},},
     {"id":{"name":"s_sword_stand","path":"sprites/s_sword_stand/s_sword_stand.yy",},},
     {"id":{"name":"s_tree","path":"sprites/s_tree/s_tree.yy",},},
+    {"id":{"name":"terrain_atlas","path":"sprites/terrain_atlas/terrain_atlas.yy",},},
     {"id":{"name":"t_dirtpath","path":"tilesets/t_dirtpath/t_dirtpath.yy",},},
     {"id":{"name":"t_dirtwall","path":"tilesets/t_dirtwall/t_dirtwall.yy",},},
+    {"id":{"name":"t_river","path":"tilesets/t_river/t_river.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
@@ -226,6 +230,7 @@
     {"roomId":{"name":"r_base","path":"rooms/r_base/r_base.yy",},},
     {"roomId":{"name":"r_world","path":"rooms/r_world/r_world.yy",},},
     {"roomId":{"name":"r_sword","path":"rooms/r_sword/r_sword.yy",},},
+    {"roomId":{"name":"r_river","path":"rooms/r_river/r_river.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
