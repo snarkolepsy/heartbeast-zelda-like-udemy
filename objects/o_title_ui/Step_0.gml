@@ -21,7 +21,7 @@ if (o_input.action_one_pressed_) { // Making a selection
 			
 		case options.new_game:
 			audio_play_sound(a_menu_select, 3, false);
-			room_goto(r_world);
+			room_goto(r_starting_area);
 			break;
 			
 		case options.credits:
