@@ -1,6 +1,6 @@
 {
   "$GMTileSet":"v1",
-  "%Name":"t_river",
+  "%Name":"t_lpc_terrain",
   "autoTileSets":[
     {"$GMAutoTileSet":"","%Name":"autotile_1","closed_edge":false,"name":"autotile_1","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[124,61,60,92,29,123,797,91,28,798,125,93,156,155,157,763,],},
   ],
@@ -9,7 +9,7 @@
     "SerialiseWidth":0,
     "TileSerialiseData":[],
   },
-  "name":"t_river",
+  "name":"t_lpc_terrain",
   "out_columns":32,
   "out_tilehborder":2,
   "out_tilevborder":2,
