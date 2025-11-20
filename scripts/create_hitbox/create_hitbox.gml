@@ -17,7 +17,7 @@ function create_hitbox(){
 	var _damage = argument6;
 	var _knockback = argument7;
 	
-	var _hitbox = instance_create_layer(_x, _y, "Instances", o_hitbox);
+	var _hitbox = instance_create_layer(_x, _y, "Collision", o_hitbox);
 	_hitbox.sprite_index = _sprite;
 	_hitbox.image_angle = _angle;
 	_hitbox.alarm[0] = _frames;

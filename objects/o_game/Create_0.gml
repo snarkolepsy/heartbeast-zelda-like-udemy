@@ -1,6 +1,6 @@
 global.one_second = game_get_speed(gamespeed_fps);
 global.destroyed = [];
-instance_create_layer(0, 0, "Instances", o_input);
+instance_create_layer(0, 0, "UI", o_input);
 
 // Converting a sprite sheet into a usable font
 var _font_string = "ABCDEFGHIJKLMNOPQRSTUVWXYZ.abcdefghijklmnopqrstuvwxyz1234567890>,!':-+";
@@ -38,6 +38,6 @@ item_index_ = 0;
 // Inventory tracking stuff p2
 inventory_create(4);
 inventory_add_item(o_sword_item);
-//inventory_add_item(o_ring_item); // We start off with the ring?
-// inventory_add_item(o_bow_item); // for debugging purposes, we also start with the bow and bombs
-// inventory_add_item(o_bomb_item);
+inventory_add_item(o_ring_item); // We start off with the ring?
+inventory_add_item(o_bow_item); // for debugging purposes, we also start with the bow and bombs
+inventory_add_item(o_bomb_item);

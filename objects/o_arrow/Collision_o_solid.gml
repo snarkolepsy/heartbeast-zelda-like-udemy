@@ -6,7 +6,7 @@ if (image_angle == 0 or image_angle = 180) {
 }
 
 // Collide with o_solid, spawn o_arrow_hit object
-var _arrow_hit = instance_create_layer(x, y-7, "Instances", o_arrow_hit);
+var _arrow_hit = instance_create_layer(x, y-7, "Collision", o_arrow_hit);
 _arrow_hit.image_angle = image_angle;
 with (_arrow_hit) {
 	var _x_dir = sign(lengthdir_x(1, image_angle));

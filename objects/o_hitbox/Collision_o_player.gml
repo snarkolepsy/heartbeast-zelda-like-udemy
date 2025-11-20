@@ -1,1 +1,1 @@
-instance_destroy();
+// instance_destroy(); // why was this implemented in the first fucking place?!

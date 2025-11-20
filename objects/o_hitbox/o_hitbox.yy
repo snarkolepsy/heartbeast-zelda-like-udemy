@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_bomb_hitbox",
-    "path":"sprites/s_bomb_hitbox/s_bomb_hitbox.yy",
+    "name":"s_hitbox",
+    "path":"sprites/s_hitbox/s_hitbox.yy",
   },
   "spriteMaskId":null,
   "visible":false,
