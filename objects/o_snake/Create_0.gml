@@ -10,6 +10,9 @@ enum snake {
 	wait
 }
 
+max_health_ = 5;
+health_ = max_health_;
+
 starting_state_ = snake.idle;
 state_ = starting_state_;
 

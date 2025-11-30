@@ -170,12 +170,11 @@
     {"name":"inst_44744793","path":"rooms/r_starting_area/r_starting_area.yy",},
     {"name":"i_roaming_to_starting_area","path":"rooms/r_starting_area/r_starting_area.yy",},
     {"name":"inst_3634D236","path":"rooms/r_starting_area/r_starting_area.yy",},
-    {"name":"inst_7FB44390","path":"rooms/r_starting_area/r_starting_area.yy",},
-    {"name":"inst_78CEE5FA","path":"rooms/r_starting_area/r_starting_area.yy",},
     {"name":"inst_6D7D9448","path":"rooms/r_starting_area/r_starting_area.yy",},
     {"name":"inst_3B492B63","path":"rooms/r_starting_area/r_starting_area.yy",},
     {"name":"inst_54B98DF","path":"rooms/r_starting_area/r_starting_area.yy",},
     {"name":"inst_3A70EC67","path":"rooms/r_starting_area/r_starting_area.yy",},
+    {"name":"inst_6D671220","path":"rooms/r_starting_area/r_starting_area.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -286,8 +285,7 @@
         {"$GMRInstance":"v4","%Name":"inst_3B492B63","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3B492B63","objectId":{"name":"o_grass","path":"objects/o_grass/o_grass.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":32.0,"y":80.0,},
         {"$GMRInstance":"v4","%Name":"inst_54B98DF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_54B98DF","objectId":{"name":"o_grass","path":"objects/o_grass/o_grass.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":32.0,"y":64.0,},
         {"$GMRInstance":"v4","%Name":"inst_3A70EC67","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3A70EC67","objectId":{"name":"o_grass","path":"objects/o_grass/o_grass.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":32.0,"y":32.0,},
-        {"$GMRInstance":"v4","%Name":"inst_7FB44390","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7FB44390","objectId":{"name":"o_bat","path":"objects/o_bat/o_bat.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":368.0,"y":128.0,},
-        {"$GMRInstance":"v4","%Name":"inst_78CEE5FA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_78CEE5FA","objectId":{"name":"o_porcupine","path":"objects/o_porcupine/o_porcupine.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":144.0,"y":208.0,},
+        {"$GMRInstance":"v4","%Name":"inst_6D671220","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6D671220","objectId":{"name":"o_snake","path":"objects/o_snake/o_snake.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":368.0,"y":128.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Map","depth":300,"effectEnabled":true,"effectType":null,"gridX":8,"gridY":8,"hierarchyFrozen":false,"inheritLayerDepth":true,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":false,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_22024693","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_22024693","objectId":{"name":"o_tree","path":"objects/o_tree/o_tree.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":24.0,"y":0.0,},

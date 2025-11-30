@@ -3,7 +3,7 @@ initialize_hurtbox_entity();
 
 image_speed = 0; // for testing mockup enemy using player sprite
 
-max_health_ = 2;
+max_health_ = 1;
 health_ = max_health_;
 
 starting_state_ = noone;

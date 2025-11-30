@@ -6,6 +6,9 @@ enum hornet {
 	attack
 }
 
+max_health_ = 3;
+health_ = max_health_;
+
 starting_state_ = hornet.move;
 state_ = starting_state_;
 

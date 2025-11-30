@@ -7,6 +7,9 @@ enum bat {
 	attack
 }
 
+max_health_ = 2;
+health_ = max_health_;
+
 starting_state_ = bat.move;
 state_ = starting_state_;
 alarm[1] = global.one_second*random_range(0, 1);

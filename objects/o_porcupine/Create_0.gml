@@ -10,6 +10,9 @@ enum porcupine {
 	wait
 }
 
+max_health_ = 3;
+health_ = max_health_;
+
 starting_state_ = porcupine.idle;
 state_ = starting_state_;
 
