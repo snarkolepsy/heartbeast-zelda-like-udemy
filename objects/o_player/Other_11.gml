@@ -28,11 +28,11 @@ if (animation_hit_frame(1)) {
 		 	_hitbox.y -=5;
 			break;
 		case dir.left:
-			_hitbox.x -= 4;
+			_hitbox.x -= 3;
 		 	_hitbox.y -= 8;
 			break;
 		case dir.down:
-		 	_hitbox.y -= 10;
+		 	_hitbox.y -= 6;
 			break;
 	}
 }

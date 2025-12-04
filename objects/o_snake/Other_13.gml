@@ -5,7 +5,7 @@ if (animation_hit_frame(1)) {
 	var _life = 1;
 	var _damage = 1;
 	var _knockback = 4;
-	create_hitbox(s_porcupine_hitbox, x, y-8, 0, _life, [o_player], _damage, _knockback);
+	create_hitbox(s_porcupine_hitbox, x, y, 0, _life, [o_player], _damage, _knockback);
 	audio_play_sound(a_snake, 5, false);
 }
 
