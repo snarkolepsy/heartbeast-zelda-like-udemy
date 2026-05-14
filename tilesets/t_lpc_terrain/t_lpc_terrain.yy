@@ -20,8 +20,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"terrain_atlas",
-    "path":"sprites/terrain_atlas/terrain_atlas.yy",
+    "name":"s_terrain_atlas",
+    "path":"sprites/s_terrain_atlas/s_terrain_atlas.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{
